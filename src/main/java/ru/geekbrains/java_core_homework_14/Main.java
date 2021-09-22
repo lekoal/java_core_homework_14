@@ -19,11 +19,11 @@ public class Main {
         taskOne(arr5);
     }
 
-    public static void taskOne(int[] arr) {
+    public static void taskOne(int[] arr) { // Проверка работоспособности метода задания 1
         System.out.println(Arrays.toString(FirstTask.newArr(arr)));
     }
 
-    public static void taskTwo(int[] arr) {
+    public static void taskTwo(int[] arr) { // Проверка работоспособности метода задания 2
         System.out.println(SecondTask.isHereOneAndFour(arr));
     }
 }

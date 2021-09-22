@@ -3,7 +3,7 @@ package ru.geekbrains.java_core_homework_14;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FirstTask {
+public class FirstTask { // Класс создания массива из исходного, после четвёрки
 
     public static int[] newArr(int[] myArrTaskOne) {
         List<Integer> tempArr = new ArrayList<>();
@@ -18,7 +18,7 @@ public class FirstTask {
         }
         if (fourSearch == 0) throw new RuntimeException("Value 4 is not founded!");
         int[] newArr = new int[tempArr.size()];
-        for (int i = 0, j = tempArr.size() - 1; i < newArr.length ; i++, j--) {
+        for (int i = 0, j = tempArr.size() - 1; i < newArr.length ; i++, j--) { // Разворот полученного листа и запись в массив
             newArr[i] = tempArr.get(j);
         }
 
